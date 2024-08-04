@@ -3,7 +3,7 @@ import google.generativeai as genai
 import json
 
 # Initialize the Gemini model
-genai.configure(api_key="AIzaSyC6zu5i4Pna7KmhLyANd84LsKfl9XB-rgc")
+genai.configure(api_key="Your API Key")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 def create_prompt(json_data, query):
